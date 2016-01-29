@@ -1,0 +1,17 @@
+<h2>These are my projects:</h2>
+<table class="table table-bordered">
+<thead> 
+	<tr>
+		<td>Title</td> 
+		<td>Description</td> 
+		<td>Upvotes</td>
+	</tr>
+ </thead>
+<tbody>
+	<tr ng-repeat="project in projects">
+		<td>{{ project.title }}</td> 
+		<td>{{ project.description }}</td> 
+		<td>{{ project.upvotes }}</td>
+  </tr>
+</tbody>
+</table>

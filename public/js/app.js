@@ -2,9 +2,9 @@ var app = angular.module('nicholas_cai',
 	[
 	'projectCtrl',
 	'expCtrl',
-	'hackCtrl'
+	'hackCtrl',
+	'ngRoute'
 	])
-
 // Config angular routing 
 .config(function($routeProvider) {
 
