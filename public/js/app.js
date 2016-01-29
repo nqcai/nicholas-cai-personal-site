@@ -27,5 +27,5 @@ var app = angular.module('nicholas_cai',
 		controller: 		'hackCtrl',
 		templateUrl: 		'partials/hacks.html',
 
-	}).otherwise({redirectTo: '/projects'})
+	}).otherwise({redirectTo: '/experiences'})
 });

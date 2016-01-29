@@ -1,10 +1,10 @@
 var expCtrl = angular.module('expCtrl', []);
 
-expCtrl.controller('expCtrl', function($scope, Project) {
+expCtrl.controller('expCtrl', function($scope, Experience) {
 	$scope.formData = {};
 
-	Project.getAll()
+	Experience.getAll()
 		.success(function(data) {
 			$scope.projects = data;
-		})
-})
+		});
+});

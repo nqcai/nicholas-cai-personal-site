@@ -9,7 +9,7 @@ var ExperienceSchema = new Schema({
 	start_date: 	{type: Date, 				require: true},
 	end_date: 		{type: Date, 				require: false},
 	location: 		{type: String, 			require: false},
-	company: 			{type: String, 			require: false},
+	company: 			{type: String, 			require: true},
 	description: 	{type: String, 			require: true},
 	link: 				{type: String, 			require: false},
 	tech_used: 		{type: [String],		require: true},
